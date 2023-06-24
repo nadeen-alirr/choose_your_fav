@@ -1,0 +1,58 @@
+/* Cardhome.css */
+
+.input__search {
+    /* Add your custom styles here */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  .input__search:focus {
+    /* Add custom styles for the focused state */
+    border-color: #ffff;
+    outline: none;
+  }
+  
+.input__search {
+    /* Add your custom styles here */
+    float: right;
+  }
+  .checked {
+    color: orange;
+  }
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 7px;
+   
+  }
+  
+  .btn {
+    background-color: #000000;
+    color: #ffff;
+    font-size: 1vw;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    outline: none; /* Add this line to remove the outline */
+  }
+  
+  .btn:hover {
+    background-color: #000000;
+    color: #ffff;
+  }
+  
+  .btn:focus,
+  .btn:active {
+    background-color: #000000; /* Change to the same background color as normal state */
+    color: #000000; /* Change to the same text color as normal state */
+  }
+  
+  .rating-stars {
+    display: flex;
+    align-items: center;
+  }
+ 

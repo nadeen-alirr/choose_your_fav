@@ -1,0 +1,69 @@
+.logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .nav__bar {
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.0));
+  }
+  
+  .header__link {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .header__link:hover {
+    color: #ff0000;
+  }
+  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: #fff;
+  }
+  
+  .input__search {
+    color: #fff;
+  }
+  
+  .btn__search {
+    color: #fff;
+    border-color: black;
+  }
+  
+  .btn__search:hover {
+    color: #fff !important;
+    background-color: #0000 !important;
+    border-color: #fff!important;
+  }
+  
+  .btn__search:active {
+    color: #0000 !important;
+    background-color: transparent !important;
+    border-color: #0000 !important;
+  }
+  /* style the button sign in and signup */
+  .header__button {
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+  }
+  
+  .header__button.sign-in:hover
+  {
+    background-color:black;
+    border-color: black;
+    color: #fff;
+  }
+  .header__button.sign-up:hover {
+    background-color:black;
+    border-color: black;
+    color: #fff;
+  }
+
+  .header__form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
