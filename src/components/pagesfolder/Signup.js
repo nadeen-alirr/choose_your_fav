@@ -14,32 +14,34 @@ const Signup = () => {
   };
 
   return (
-    <div>
-      <h2>Sign Up</h2>
-      {/* Your sign-up form fields */}
+    <>
+    </>
+    // <div>
+    //   <h2>Sign Up</h2>
+    //   {/* Your sign-up form fields */}
       
-      {/* Facebook sign-up button */}
-      <FacebookLogin
-        appId="your-facebook-app-id"
-        autoLoad={false}
-        fields="name,email,picture"
-        callback={handleFacebookResponse}
-        render={(renderProps) => (
-          <button onClick={renderProps.onClick}>Sign up with Facebook</button>
-        )}
-      />
+    //   {/* Facebook sign-up button */}
+    //   <FacebookLogin
+    //     appId="your-facebook-app-id"
+    //     autoLoad={false}
+    //     fields="name,email,picture"
+    //     callback={handleFacebookResponse}
+    //     render={(renderProps) => (
+    //       <button onClick={renderProps.onClick}>Sign up with Facebook</button>
+    //     )}
+    //   />
 
-      {/* Google sign-up button */}
-      <GoogleLogin
-        clientId="your-google-client-id"
-        onSuccess={handleGoogleResponse}
-        onFailure={handleGoogleResponse}
-        cookiePolicy={'single_host_origin'}
-        render={(renderProps) => (
-          <button onClick={renderProps.onClick}>Sign up with Google</button>
-        )}
-      />
-    </div>
+    //   {/* Google sign-up button */}
+    //   <GoogleLogin
+    //     clientId="your-google-client-id"
+    //     onSuccess={handleGoogleResponse}
+    //     onFailure={handleGoogleResponse}
+    //     cookiePolicy={'single_host_origin'}
+    //     render={(renderProps) => (
+    //       <button onClick={renderProps.onClick}>Sign up with Google</button>
+    //     )}
+    //   />
+    // </div>
   );
 };
 
